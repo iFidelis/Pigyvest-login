@@ -23,6 +23,7 @@ body {
     width: 100%;
     position: relative;
     min-height: 100vh;
+    overflow: scroll;
 }
 
 /* logo container */
@@ -34,6 +35,13 @@ body {
 }
 
 /* Center form div */
+
+.wrapp {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
 .con-inner {
     position: relative;
     margin: 0em auto;
@@ -129,9 +137,16 @@ section .form-reg h1 {
     color:grey;
 }
 
-@media (max-width: 768px){
+.bg-icons {
+    background-image: url(/img/p-1.png), url(/img/p-2.png), url(/img/p-3.png), url(/img/p-4.png);
+    background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 15%, 15%, 15%, 15%;
+}
+
+@media (max-width: 411px){
     /* For mobile phones: */
     .con-inner {
-       max-width: 3x;
+       max-width: 380px;
     }
   }
