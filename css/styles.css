@@ -137,8 +137,9 @@ section .form-reg h1 {
     color:grey;
 }
 
+/* position icons*/
 .bg-icons {
-    background-image: url(/img/p-1.png), url(/img/p-2.png), url(/img/p-3.png), url(/img/p-4.png);
+    background-image: url(../img/p-1.png), url(../img/p-2.png), url(../img/p-3.png), url(../img/p-4.png);
     background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-size: 15%, 15%, 15%, 15%;
