@@ -1,0 +1,137 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+/* preset padding */
+
+.ptop-m {
+    padding-top: 25px;
+}
+
+/* bg covers page*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Background */
+.bg {
+    background: #062863;
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+}
+
+/* logo container */
+
+.logo-con, .reg-footer {
+    text-align: center;
+    padding: 3em 0em;
+    color: white;
+}
+
+/* Center form div */
+.con-inner {
+    position: relative;
+    margin: 0em auto;
+    max-width: 450px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 1.2em 1.2em 1.2em 0em;
+    background: white;
+}
+
+/* Form styling */
+.form-reg {
+    padding: 2em;
+}
+
+section .form-reg h1 {
+    color: #083e9e;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.form-reg p {
+    text-align: center;
+    margin-top: 0px;
+    font-size: smaller;
+}
+
+.form-reg input{
+    width: 100%;
+    padding: 1.3em;
+    font-size: 1em;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    border: 0 solid #e2e8f0;
+    border-radius: .25em;
+    background: #edf2f7;
+    box-sizing: border-box;
+  }
+
+  .form-reg select{
+    height: 4em;
+    width: 100%;
+    padding: 1.3em;
+    font-size: 1em;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    border: 0 solid #e2e8f0;
+    border-radius: .25em;
+    background: #edf2f7;
+    box-sizing: border-box;
+  }
+
+  #cars .select-selected{
+      padding: 2em;
+  }
+
+  .form-reg form label {
+      padding-top: 20px;
+  }
+
+  .form-reg :focus {
+    outline: none;
+}
+
+.form-reg ::placeholder {
+    color: #9eacbe;
+}
+
+/*hover effects on clickables*/
+.pbtn {
+    background: #083e9e;
+    padding: 1em;
+    width: 100%;
+    color: white;
+    font-size: 1.2em;
+    border-radius: .8em .8em .8em 0em;
+    text-transform: uppercase;
+}
+
+.pbtn:hover {
+    background: #062863;
+    cursor: pointer;
+}
+
+.reg-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.reg-footer a:hover {
+    color:grey;
+}
+
+@media (max-width: 768px){
+    /* For mobile phones: */
+    .con-inner {
+       max-width: 3x;
+    }
+  }
